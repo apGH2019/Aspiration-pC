@@ -8,7 +8,8 @@ from numba import int64, float64
 import seaborn as sns
 
 import PGG
-import Record
+#import Record
+import Record_vectorized as Record
 import rewire
 import initialize as init
 
