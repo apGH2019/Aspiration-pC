@@ -1,0 +1,8 @@
+* Cooperation based on Aspiration
+** Aspiration levels determined by the habituation
+   A_{t+1} = A_{t}(1-h) + \pi_{t} h
+** Satisfaction determined by aspiration
+   s_{t} = tanh(\beta (A_{t} - \pi_{t}))
+** Probability of cooperation
+   Determined by the satisfaction and the action of the player in the last round.
+* Rewiring

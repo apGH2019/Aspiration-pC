@@ -8,7 +8,6 @@ from numba import int64, float64
 import seaborn as sns
 
 import PGG
-#import Record
 import Record_vectorized as Record
 import rewire
 import initialize as init
@@ -20,7 +19,7 @@ totTime = 0.
 
 totNP = 500
 trials = 1
-rounds = 200
+rounds = 1000
 
 eps = 0.02
 c = 1.
